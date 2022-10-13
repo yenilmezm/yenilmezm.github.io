@@ -1,4 +1,12 @@
-.text-center{
+.text-center {
     display: flex;
     justify-content: space-between;
+}
+
+svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
 }
